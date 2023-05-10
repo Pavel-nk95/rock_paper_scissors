@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mynerve', cursive, system-ui, sans-serif;
+  font-size: 18px;
+  color: #31393C;
+  background: #33a1fd;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.header {
+  background: #2176FF;
+  margin: 0;
+  text-align: center;
+  box-shadow: 0px 20px 20px -20px #2176FF;
+  padding: 20px 0;
+}
+
+.title {
+  font-size: 64px;
+}
+
+.desc {
+  font-size: 32px;
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.items {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  width: 140px;
+  height: 140px;
+  transition: box-shadow .3s ease-in-out;
+  border-radius: 20px;
+  background: #F79824;
+  padding: 20px;
+}
+
+.item:hover,
+.item:active {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.score {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 36px;
+}
+
+.message {
+  text-align: center;
+  font-size: 24px;
+}
+
+.round-msg {
+  font-size: 28px;
+  text-align: center;
+}

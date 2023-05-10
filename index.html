@@ -5,10 +5,36 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <title>rock_paper_scissors</title>
 </head>
 
 <body>
+
+  <div class="rps">
+    <div class="wrapper">
+      <header class="header">
+        <h1 class="title">rock-paper-scissors</h1>
+        <p class="desc">Choose your weapon!</p>
+      </header>
+      <div class="container">
+        <ul class="items">
+          <li><button class="item item-rock"><img src="./images/rock.svg" alt="rock"></button></li>
+          <li><button class="item item-paper"><img src="./images/paper.svg" alt="paper"></button></li>
+          <li><button class="item item-scissors"><img src="./images/scissors.svg" alt="scissors"></button></li>
+        </ul>
+        <div class="score">
+          <p class="person-score">You: <strong>0</strong></p>
+          <p class="computer-score">Computer: <strong>0</strong></p>
+        </div>
+        <p class="round-msg">Round: <strong>1</strong></p>
+        <p class="message">Lets GO!</p>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
